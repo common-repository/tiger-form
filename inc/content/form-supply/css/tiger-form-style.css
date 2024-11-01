@@ -1,0 +1,128 @@
+.dfu-form{
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.dfu-form .dfu-input-div {
+	margin-bottom: 15px;
+}
+
+.dfu-form .dfu-input-div .dfu-label {
+	margin-bottom: 2px;
+	display:block;
+}
+
+.dfu-form .dfu-input-div label span{
+color: red;
+}
+
+.dfu-form .dfu-input-div button[disabled]{
+opacity: .1;
+cursor: default;
+}
+
+.dfu-spiner{
+	width: 25px;
+	filter: grayscale(100%);
+	margin-left: 10px;
+	position: relative;
+	display: none;
+}
+
+.dfu-missing-error{
+	width: 100%;
+	background: #f8d7da;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #721c24;
+	border-color: #f5c6cb;
+	border-radius: 3px;
+}
+
+.dfu-length-text {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: monospace;
+	color: #424242 !important;
+}
+
+.dfu-validate-error {
+	width: 100%;
+	background: #f8d7da;
+	padding: 7px 10px;
+	font-size: 15px;
+	color: #721c24;
+	border-color: #f5c6cb;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	border-left: 3px solid;
+	border-right: 3px solid;
+}
+
+.dfu-validate-success {
+	width: 100%;
+	background: #d4edda;
+	padding: 7px 10px;
+	font-size: 15px;
+	color: #155724;
+	border-color: #c3e6cb;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	border-left: 3px solid;
+	border-right: 3px solid;
+}
+
+.dfu-input-div .inline-err{
+	font-size: 14.5px;
+	color: #df0000;
+	font-family: monospace;
+}
+
+.dfu-input-div input[type=text], .dfu-input-div input[type=url], .dfu-input-div input[type=email], .dfu-input-div input[type=number], .dfu-input-div input[type=date]{
+width: 100%;
+height: 40px;
+padding: 7px;
+font-size: 15px;
+}
+.dfu-input:-moz-read-only { 
+  background-color: #efefef;
+}
+
+.dfu-input:read-only {
+  background-color: #efefef;
+}
+.dfu-input-div textarea{
+width: 100%;
+padding: 7px;
+font-size: 15px;
+}
+.dfu-input-div select{
+width: 100%;
+padding: 7px;
+font-size: 15px;
+height: 40px;	
+}
+
+.dfu-input-div .dfu-span{
+display: inline;
+}
+.dfu-input-div input[type=radio], .dfu-input-div input[type=checkbox]{
+margin-left: 20px;
+}
+.dfu-input-div input[type=radio]:nth-of-type(1), .dfu-input-div input[type=checkbox]:nth-of-type(1){
+margin-left: 0px;
+}
+.dfu-input{
+	outline:none !important;
+	box-shadow:none;
+}
+
+.dfu-input:focus{
+	outline:none !important;
+}
+.dfu-input-div .dfu-input-btn {
+	padding: 0.7em 1.5em;
+	transition: background 0.8s;
+	cursor: pointer;
+}
